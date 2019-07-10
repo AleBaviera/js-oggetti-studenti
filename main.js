@@ -20,6 +20,18 @@ for(var key in studente1){
   chiave += studente1[key];
 }
 console.log(chiave);
+
+// oppure
+var chiave = '';
+for(var key in studente1){
+  chiave = studente1[key];
+  console.log(chiave);
+}
+
+
+
+
+
 // - Creare un array di oggetti di studenti. Ciclare su tutti gli studenti e stampare per ognuno nome e cognome
 
 
